@@ -6,11 +6,15 @@ import java.awt.Font;
 
 public class Effet {
 
-    private String text;
+    private String description;
 
-    public Effet(String text) {
-        this.text = text;
+    public Effet(String desc) {
+        this.description = desc;
     }
 
     public void appliquer(Bandeau bandeau) {}
+
+    public String getDescription(){
+        return this.description;
+    }
 }
