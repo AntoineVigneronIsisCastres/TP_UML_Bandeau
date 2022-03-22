@@ -16,5 +16,11 @@ public class Scenario {
             e.appliquer(bandeau);
         }
     }
+
+    public void ajouterEffet(Bandeau bandeau, Effet effet, Integer nb) {
+        for(int i = 1; i <= nb; i++) {
+            this.listeEffets.add(effet);
+        }
+    }
     
 }

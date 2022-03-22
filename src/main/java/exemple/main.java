@@ -30,9 +30,9 @@ public class main {
         bandeau2.setForeground(fore2);
         bandeau2.setBackground(back2);
         ArrayList<Effet> listeEffets = new ArrayList<Effet>();
-        listeEffets.add(zoom);
-        listeEffets.add(spin);
         Scenario scenar1 = new Scenario(listeEffets);
+        scenar1.ajouterEffet(bandeau1, zoom, 2);
+        scenar1.ajouterEffet(bandeau1, spin, 3);
         scenar1.demarrerScenario(bandeau2);
     }
 }
