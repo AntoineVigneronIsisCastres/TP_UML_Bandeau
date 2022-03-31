@@ -19,12 +19,11 @@ public class main {
         Zoom zoom = new Zoom();
         Spin spin = new Spin();
         Typewriter typewriter = new Typewriter();
-        bandeau1.setMessage("Hello 2");
+        bandeau1.setMessage("Bonjour");
         bandeau1.setFont(font1);
         bandeau1.setForeground(fore1);
         bandeau1.setBackground(back1);
-        ArrayList<Effet> listeEffets = new ArrayList<Effet>();
-        Scenario scenar1 = new Scenario(listeEffets);
+        Scenario scenar1 = new Scenario();
         scenar1.ajouterEffet(bandeau1, zoom, 3);
         scenar1.ajouterEffet(bandeau1, typewriter, 2);
         scenar1.ajouterEffet(bandeau1, spin, 2);

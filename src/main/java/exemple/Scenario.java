@@ -7,8 +7,8 @@ public class Scenario {
 
     private List<Effet> listeEffets = new ArrayList<Effet>();
 
-    public Scenario(List<Effet> liste) {
-        this.listeEffets = liste;
+    public Scenario() {
+        this.listeEffets = new ArrayList<Effet>();
     }
 
     public void demarrerScenario(Bandeau bandeau) {
